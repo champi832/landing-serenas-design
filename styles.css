@@ -1303,6 +1303,22 @@ img {
   justify-content: center;
 }
 
+/* Real image for About section */
+.about-real-img {
+  width: 100%;
+  max-width: 400px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.about-visual:hover .about-real-img {
+  transform: translateY(-8px);
+}
+
 .about-img-placeholder {
   width: 260px;
   height: 260px;
